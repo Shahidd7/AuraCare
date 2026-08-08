@@ -1,0 +1,6 @@
+{
+  "name": "AuraCare Dental Group",
+  "description": "A premium, modern, responsive website for AuraCare Dental Group designed to build trust and drive patient bookings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
