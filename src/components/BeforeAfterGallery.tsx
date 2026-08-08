@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import { Eye, ShieldAlert, Sparkles, Info } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import beforeCase1 from '../assets/images/dental_before_case1_1786196732523.jpg';
+import afterCase1 from '../assets/images/dental_after_case1_1786196753609.jpg';
+import beforeCase2 from '../assets/images/dental_before_case2_1786196823049.jpg';
+import afterCase2 from '../assets/images/dental_after_case2_1786196843399.jpg';
 
 export default function BeforeAfterGallery() {
   const [activeCaseIdx, setActiveCaseIdx] = useState(0);
@@ -19,8 +23,8 @@ export default function BeforeAfterGallery() {
       difficulty: 'Moderate',
       rating: '★★★★★',
       review: "I am absolutely shocked by how realistic they feel. I can laugh without hiding my mouth anymore!",
-      beforePhoto: '/src/assets/images/dental_before_case1_1786196732523.jpg',
-      afterPhoto: '/src/assets/images/dental_after_case1_1786196753609.jpg'
+      beforePhoto: beforeCase1,
+      afterPhoto: afterCase1
     },
     {
       id: 'case-2',
@@ -34,8 +38,8 @@ export default function BeforeAfterGallery() {
       difficulty: 'High',
       rating: '★★★★★',
       review: "Nobody even noticed I was wearing aligners. My lisp is gone, and flossing is a piece of cake now.",
-      beforePhoto: '/src/assets/images/dental_before_case2_1786196823049.jpg',
-      afterPhoto: '/src/assets/images/dental_after_case2_1786196843399.jpg'
+      beforePhoto: beforeCase2,
+      afterPhoto: afterCase2
     }
   ];
 

@@ -1,4 +1,6 @@
 import { Service, Dentist, Testimonial, FAQ, BlogPost, ClinicFacility } from '../types';
+import heroDentistImg from '../assets/images/hero_dentist_1780931147218.png';
+import patientSmileImg from '../assets/images/patient_smile_1780931182967.png';
 
 export const SERVICES: Service[] = [
   {
@@ -145,7 +147,7 @@ export const DENTISTS: Dentist[] = [
     ],
     experience: "15+ Years",
     bio: "Dr. Jenkins is a globally recognized master of aesthetic dentistry. She has combined medical precision with high-art digital smile designing for over fifteen years, creating functional and outstanding smile masterpieces for hundreds of satisfied patients.",
-    photoUrl: "/src/assets/images/hero_dentist_1780931147218.png", // Using the beautiful generated photo
+    photoUrl: heroDentistImg,
     availability: "Mon, Tue, Thu: 9:00 AM - 5:00 PM",
     languages: ["English", "Spanish"]
   },
@@ -162,7 +164,7 @@ export const DENTISTS: Dentist[] = [
     ],
     experience: "12+ Years",
     bio: "Dr. Stone is dedicated to reconstructing structural beauty. Specializing in highly complex implant surgeries and invisible aligners tracking, his patients love his calm composure, deep clinical expertise, and pain-free execution methods.",
-    photoUrl: "/src/assets/images/hero_dentist_1780931147218.png", // Shared photo
+    photoUrl: heroDentistImg,
     availability: "Wed, Thu, Fri: 10:00 AM - 6:00 PM",
     languages: ["English", "German"]
   },
@@ -179,7 +181,7 @@ export const DENTISTS: Dentist[] = [
     ],
     experience: "8+ Years",
     bio: "Dr. Chen believes that every child deserves a magical introduction to oral health. Known for her infectious laugh and therapeutic storytelling skills during treatments, she helps toddlers and dental-anxious teens feel completely at home.",
-    photoUrl: "/src/assets/images/hero_dentist_1780931147218.png", // Shared photo
+    photoUrl: heroDentistImg,
     availability: "Mon, Wed, Sat: 9:00 AM - 3:00 PM",
     languages: ["English", "Mandarin", "Cantonese"]
   }
@@ -195,7 +197,7 @@ export const TESTIMONIALS: Testimonial[] = [
     reviewText: "I was always self-conscious about my chipped, uneven teeth. Dr. Jenkins designed custom porcelain veneers that completely revitalized my look. The premium comfort, high-tech clinic, and compassionate treatment here was world-class. Absolute perfection!",
     date: '2026-05-18',
     beforePhoto: 'https://images.unsplash.com/photo-1522845015757-50bce044e5da?auto=format&fit=crop&w=400&q=80',
-    afterPhoto: '/src/assets/images/patient_smile_1780931182967.png' // Using generated magnificent smiling woman
+    afterPhoto: patientSmileImg
   },
   {
     id: 't-2',

@@ -1,4 +1,5 @@
 import { Sparkles, Phone, Mail, MapPin, Clock, ShieldCheck, HeartPulse } from 'lucide-react';
+import auracareLogo from '../assets/images/auracare_logo_1786196713514.jpg';
 
 interface FooterProps {
   setCurrentPage: (page: string) => void;
@@ -75,7 +76,7 @@ export default function Footer({ setCurrentPage }: FooterProps) {
           <div className="flex items-center gap-3 cursor-pointer group" onClick={() => handleNavClick('home')}>
             <div className="w-12 h-12 rounded-xl bg-brand-blue flex items-center justify-center p-0.5 shadow-lg border-2 border-brand-gold group-hover:scale-105 transition-all shrink-0 overflow-hidden">
               <img
-                src="/src/assets/images/auracare_logo_1786196713514.jpg"
+                src={auracareLogo}
                 alt="AuraCare Dental Group Emblem Logo"
                 className="w-full h-full object-cover rounded-lg"
                 referrerPolicy="no-referrer"

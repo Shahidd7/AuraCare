@@ -1,5 +1,6 @@
 import { ShieldCheck, Heart, Stethoscope, Microscope, Zap, ClipboardCheck } from 'lucide-react';
 import { FACILITIES } from '../data/dentalData';
+import clinicInteriorImg from '../assets/images/clinic_interior_1780931165466.png';
 
 interface AboutSectionProps {
   onNavigateToDentists: () => void;
@@ -45,7 +46,7 @@ export default function AboutSection({ onNavigateToDentists }: AboutSectionProps
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border-2 border-brand-gold/30 bg-white p-2">
               <div className="w-full h-full rounded-2xl overflow-hidden">
                 <img
-                  src="/src/assets/images/clinic_interior_1780931165466.png"
+                  src={clinicInteriorImg}
                   alt="AuraCare Dental Hospital Operating Suite"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

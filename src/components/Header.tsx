@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone, Calendar, HeartPulse, Sparkles, MessageSquare } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import auracareLogo from '../assets/images/auracare_logo_1786196713514.jpg';
 
 interface HeaderProps {
   currentPage: string;
@@ -81,7 +82,7 @@ export default function Header({ currentPage, setCurrentPage, onOpenBooking }: H
           >
             <div className="relative w-11 h-11 rounded-xl bg-brand-blue flex items-center justify-center p-0.5 shadow-md group-hover:scale-105 group-hover:shadow-brand-red/30 transition-all duration-300 border-2 border-brand-gold shrink-0 overflow-hidden">
               <img
-                src="/src/assets/images/auracare_logo_1786196713514.jpg"
+                src={auracareLogo}
                 alt="AuraCare Dental Group Emblem Logo"
                 className="w-full h-full object-cover rounded-lg"
                 referrerPolicy="no-referrer"

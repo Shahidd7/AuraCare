@@ -1,5 +1,7 @@
 import { ArrowRight, MessageSquare, Calendar, Star, Users, Award, ShieldCheck } from 'lucide-react';
 import { motion } from 'motion/react';
+import heroDentistImg from '../assets/images/hero_dentist_1780931147218.png';
+import clinicInteriorImg from '../assets/images/clinic_interior_1780931165466.png';
 
 interface HeroSectionProps {
   onOpenBooking: () => void;
@@ -111,7 +113,7 @@ export default function HeroSection({ onOpenBooking, onNavigateToServices }: Her
               {/* Main Dentist Picture Card */}
               <div className="absolute inset-0 bg-white rounded-3xl overflow-hidden shadow-2xl shadow-brand-blue/10 transform -rotate-1 hover:rotate-0 transition-transform duration-500 border-2 border-brand-gold/30">
                 <img
-                  src="/src/assets/images/hero_dentist_1780931147218.png"
+                  src={heroDentistImg}
                   alt="AuraCare Professional Dentist Team"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -129,7 +131,7 @@ export default function HeroSection({ onOpenBooking, onNavigateToServices }: Her
               <div className="absolute -bottom-6 -left-6 w-36 sm:w-48 aspect-[4/3] bg-white p-2 rounded-2xl shadow-2xl shadow-brand-blue/15 border-2 border-brand-gold/20 hidden sm:block transform hover:scale-105 transition-transform duration-300">
                 <div className="w-full h-full rounded-xl overflow-hidden">
                   <img
-                    src="/src/assets/images/clinic_interior_1780931165466.png"
+                    src={clinicInteriorImg}
                     alt="AuraCare state-of-the-art clinic equipment"
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
